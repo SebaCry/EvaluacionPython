@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from .models import Producto
 from .forms import ProductosForm
 
+##INSTRU ERES LA MEJOR INSTRUCTOA DE EL MUNDO
+
 def home(request):
     productos = Producto.objects.all()
     context = {'productos' : productos}
